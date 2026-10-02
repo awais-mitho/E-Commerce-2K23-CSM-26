@@ -1,9 +1,5 @@
 # Sprint 2 — Catalog Data Foundation
 
-## E-Commerce Novel Store
-
-
-
 ---
 
 # 1. Sprint Goal and Scope Boundary
