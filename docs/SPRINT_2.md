@@ -2,12 +2,7 @@
 
 ## E-Commerce Novel Store
 
-**Course:** E-Commerce  
-**Department:** Computer Science / Artificial Intelligence  
-**Institute:** Institute of Mathematics & Computer Science, University of Sindh, Jamshoro  
-**Sprint:** 2 — Catalog Data Foundation  
-**Repository:** Existing Sprint 1 GitHub Repository  
-**Document:** `docs/SPRINT_2.md`
+
 
 ---
 
