@@ -1,0 +1,3 @@
+const express=require('express');const {authenticate,requireAdmin}=require('../middleware/auth');const cat=require('../controllers/categoryController');const prod=require('../controllers/productController');const router=express.Router();router.use(authenticate,requireAdmin);
+router.post('/categories',cat.create);router.get('/categories',cat.list);router.patch('/categories/:id',cat.update);router.delete('/categories/:id',cat.deactivate);
+router.post('/products',prod.create);router.get('/products',prod.list);router.patch('/products/:id',prod.update);router.post('/products/:id/variants',prod.createVariant);router.post('/products/:id/skus',prod.createSKU);router.patch('/skus/:id',prod.updateSKU);module.exports=router;
