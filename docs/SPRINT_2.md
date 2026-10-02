@@ -1500,44 +1500,7 @@ The Sprint 2 catalog foundation prepares SKU identities so future orders can ref
 
 ---
 
-# 9. Sprint 2 Acceptance Checklist
-
-Before submission, the following should be verified:
-
-- [ ] Categories can be created.
-- [ ] Categories can be updated.
-- [ ] Categories can be deactivated.
-- [ ] Categories can be listed.
-- [ ] Category slugs are unique.
-- [ ] Category hierarchy prevents cycles.
-- [ ] Products can be created.
-- [ ] Products can be edited.
-- [ ] Product slugs are unique.
-- [ ] Products have category relationships.
-- [ ] Products have valid statuses.
-- [ ] Variants belong to products.
-- [ ] SKUs belong to variants.
-- [ ] SKU codes are unique.
-- [ ] SKU prices are validated.
-- [ ] Stock cannot become negative.
-- [ ] Active products have sellable SKUs.
-- [ ] Administrative routes require authentication.
-- [ ] Non-admin users cannot perform admin writes.
-- [ ] Seed data contains at least two categories.
-- [ ] Seed data contains at least three products.
-- [ ] Seed data contains at least four SKUs.
-- [ ] At least one product has multiple variants.
-- [ ] An unavailable combination is not represented as a fake SKU.
-- [ ] Automated validation tests are implemented.
-- [ ] Authorization tests are implemented.
-- [ ] Duplicate slug/SKU tests are implemented.
-- [ ] ERD documents catalog relationships.
-- [ ] Sprint 1 cart/order relationships remain traceable.
-- [ ] No secrets are committed to the repository.
-
----
-
-# 10. Sprint 2 Summary
+# 9. Sprint 2 Summary
 
 Sprint 2 establishes the catalog data foundation for the physical novel e-commerce platform.
 
